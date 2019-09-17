@@ -11,7 +11,6 @@ Creates the instance of the `Vortex` class.
  - **Object** `options`: An object containing:
  - `clientKey` (String): Account Client Key (mandatory).
  - `secretKey` (String): Account Secret Key (mandatory).
- - `apiKey` (String): The unique API Key assigned per Dealer (mandatory).
  - `accessToken` (String): Account Bearer access token.
  - `version` (String): Vortex api version. (default: `v1`).
  - `host` (String): Vortex api host (default: `https://techdata.smart.com.ph`).

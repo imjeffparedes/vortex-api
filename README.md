@@ -30,7 +30,6 @@ const Vortex = require("../lib");
 var client = new Vortex({
     clientKey: process.env.VORTEX_CLIENT_KEY
   , secretKey: process.env.VORTEX_SECRET_KEY
-  , apiKey: process.env.VORTEX_API_KEY
     // This is optional
   , accessToken : process.env.VORTEX_INITIAL_ACCESS_TOKEN   
   , version: 'v1'
@@ -80,7 +79,6 @@ Creates the instance of the `Vortex` class.
  - **Object** `options`: An object containing:
  - `clientKey` (String): Account Client Key (mandatory).
  - `secretKey` (String): Account Secret Key (mandatory).
- - `apiKey` (String): The unique API Key assigned per Dealer (mandatory).
  - `accessToken` (String): Account Bearer access token.
  - `version` (String): Vortex api version. (default: `v1`).
  - `host` (String): Vortex api host (default: `https://techdata.smart.com.ph`).

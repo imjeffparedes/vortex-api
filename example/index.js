@@ -5,7 +5,6 @@ const Vortex = require("../lib");
 var client = new Vortex({
     clientKey: process.env.VORTEX_CLIENT_KEY
   , secretKey: process.env.VORTEX_SECRET_KEY
-  , apiKey: process.env.VORTEX_API_KEY
     // This is optional
   , accessToken : process.env.VORTEX_INITIAL_ACCESS_TOKEN   
   , version: 'v1'
