@@ -118,6 +118,24 @@ Topup a mobile number.
 - **Function** `cb`: The callback function.
 
 
+### `topupAsyncronous(data, cb)`
+Topup a mobile number using asyncronous request.
+
+#### Params
+
+- **Object** `data`: topup parameter (documented [here](https://www.myvortex1.com/api_documentation#resources-create-transaction)).
+- **Function** `cb`: The callback function.
+
+
+### `topupSyncronous(data, cb)`
+Topup a mobile number using syncronous request.
+
+#### Params
+
+- **Object** `data`: topup parameter (documented [here](https://www.myvortex1.com/api_documentation#resources-create-transaction)).
+- **Function** `cb`: The callback function.
+
+
 ### `getTopup(refNo, cb)`
 Retrieve topup transaction details given a reference number.
 
