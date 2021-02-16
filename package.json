@@ -1,6 +1,6 @@
 {
   "name": "vortex-api",
-  "version": "0.5.2",
+  "version": "1.0.0",
   "description": "Vortex API wrapper for Node.js",
   "main": "lib/index.js",
   "scripts": {
